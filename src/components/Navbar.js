@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import logoImg from "../assets/logo.png";
-// import bellIcon from "../assets/icons/Vector.png";
-import searchIcon from "../assets/icons/Vector (1).png";
-// import avatar from "../assets/icons/avatar.png";
+import ModeIcon from "../assets/icons/navicon (2).png";
+import DiscordIcon from "../assets/icons/navicon (3).png";
+import TwitterIcon from "../assets/icons/navicon (4).png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -74,29 +74,27 @@ const Navbar = () => {
               <div className="flex space-x-4"></div>
             </div>
           </div>
-          <div className="space-x-2 absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            <div className=" px-3 hidden md:flex items-center mx-auto  bg-gradient-to-b from-[#14142F] to-[#232757] h-10 rounded-md">
-              <img src={searchIcon} alt="" />
-
-              <input
-                className="text-white w-full bg-transparent h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
-                type="search"
-                name="search"
-                placeholder="Search by creator or item..."
-              />
-            </div>
-            <button className="h-9">
-              {/* <img src={bellIcon} className="mx-auto opacity-80" alt="" />
+          <div className="hidden   space-x-2  absolute inset-y-0 right-0 sm:flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+            
+            <button className="bg-gradient-to-b from-[#232757] to-[#232757] rounded-lg h-fit w-fit p-[2px]">
+              <button className="h-9 w-9 bg-gradient-to-b from-[#14142F] to-[#232757] rounded-md">
+                <img src={DiscordIcon} className="mx-auto " alt="" />
+              </button>
             </button>
-            <button className="h-9 w-9 bg-gradient-to-b from-[#14142F] to-[#232757] rounded-lg border border-gray-500">
-              <img src={avatar} className="mx-auto h-7 w-7" alt=""/> */}
-              <a
-                href="/Wallet"
-                className={`whitespace-nowrap rounded-full cursor-pointer 
-                  border-2 border-solid border-[#9B02FB] hidden md:flex py-2 px-6 bg-gradient-to-b  to-[#1B1E4C] from-[#141532] text-sm text-white hover:text-gray-100`}
-              >
-                connect wallet
-              </a>
+            <button className="bg-gradient-to-b from-[#232757] to-[#232757] rounded-lg h-fit w-fit p-[2px]">
+              <button className="h-9 w-9 bg-gradient-to-b from-[#14142F] to-[#232757] rounded-md">
+                <img src={TwitterIcon} className="mx-auto " alt="" />
+              </button>
+            </button>
+            <button className="bg-gradient-to-b from-[#232757] to-[#232757] rounded-lg h-fit w-fit p-[2px]">
+              <button className="h-9 w-9 bg-gradient-to-b from-[#14142F] to-[#232757] rounded-md">
+                <img src={ModeIcon} className="mx-auto " alt="" />
+              </button>
+            </button>
+            <button className="bg-gradient-to-b from-[#232757] to-[#232757] rounded-lg h-fit w-fit p-[2px]">
+              <button className="h-9 w-36 text-white font-semibold bg-gradient-to-b from-[#14142F] to-[#232757] rounded-md">
+                Connect Wallet
+              </button>
             </button>
           </div>
         </div>
