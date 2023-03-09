@@ -5,7 +5,7 @@ import BTCIcon from "../assets/icons/Group.png";
 
 const Card = ({ nftData: { id, img, title, price } }) => {
   return (
-    <section className="font-outfit bg-[#161933] p-3 rounded-xl shadow-2xl w-auto h-auto flex justify-between gap-4 items-center">
+    <section className="font-outfit bg-[#161933] p-3 rounded-xl shadow-2xl w-auto h-auto flex justify-between gap-4 items-center card-hover">
       <div>
         <Link
           to="/"
