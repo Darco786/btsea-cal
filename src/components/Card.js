@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import heartIcon from "../assets/icons/heart.png";
+
 import BTCIcon from "../assets/icons/Group.png";
 
 const Card = ({ nftData: { id, img, title, price } }) => {
