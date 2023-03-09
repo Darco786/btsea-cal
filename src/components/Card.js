@@ -5,10 +5,10 @@ import BTCIcon from "../assets/icons/Group.png";
 
 const Card = ({ nftData: { id, img, title, price } }) => {
   return (
-    <section className="font-outfit bg-[#161933] p-3 rounded-xl shadow-2xl w-auto h-auto flex justify-between gap-4">
+    <section className="font-outfit bg-[#161933] p-3 rounded-xl shadow-2xl w-auto h-auto flex justify-between gap-4 items-center">
       <div>
         <Link
-          to="/nft-profile"
+          to="/"
           className="group block relative rounded-md overflow-hidden"
         >
           <img src={img} alt="equilibrium" className="w-full h-auto" />
@@ -18,7 +18,7 @@ const Card = ({ nftData: { id, img, title, price } }) => {
         <div className="">
           <h1>
             <Link
-              to="/nft-profile"
+              to="/"
               className="block text-white mt-3 font-semibold text-lg hover:text-cyan"
             >
               {title}
@@ -30,7 +30,7 @@ const Card = ({ nftData: { id, img, title, price } }) => {
         </div>
         <div className="flex justify-between items-center">
           <Link
-            to="/nft-profile"
+            to="/"
             className="block text-white  font-semibold text-base hover:text-cyan"
           >
             Price: {price}
@@ -41,7 +41,7 @@ const Card = ({ nftData: { id, img, title, price } }) => {
           </div>
         </div>
         <Link
-          to="/nft-profile"
+          to="/"
           className="block text-white  font-semibold text-base hover:text-cyan"
         >
           Total: {id}
