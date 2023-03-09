@@ -49,19 +49,19 @@ const Card = ({ nftData: { id, img, title, price } }) => {
         <div className="flex justify-between items-center mt-5 mb-2">
           <div className="space-x-2">
             <a
-              href="/Wallet"
+              href="/"
               className="whitespace-nowrap rounded-full cursor-pointer border-2 border-solid border-[#9B02FB] py-2 px-4 text-sm text-white hover:text-gray-100"
             >
               Website
             </a>
             <a
-              href="/Wallet"
+              href="/"
               className="whitespace-nowrap cursor-pointer rounded-full bg-[#22233B] border-2 border-solid border-transparent py-2 px-4 text-sm text-white hover:text-gray-100"
             >
               Twitter
             </a>
             <a
-              href="/Wallet"
+              href="/"
               className="whitespace-nowrap cursor-pointer rounded-full bg-[#22233B] border-2 border-solid border-transparent py-2 px-4 text-sm text-white hover:text-gray-100"
             >
               Discord
