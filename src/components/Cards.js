@@ -53,7 +53,7 @@ const Cards = () => {
           {buttons.map((text, i) => (
             <button
               className={
-                i == 1
+                i === 1
                   ? "bg-gradient-to-l from-[#382C9A] to-[#9605F4] rounded-full h-fit w-fit p-[2px] flex justify-center items-center"
                   : "bg-transparent p-[2px] hidden md:flex"
               }
