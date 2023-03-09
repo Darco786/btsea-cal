@@ -61,7 +61,7 @@ const Cards = () => {
               <a
                 href="/Wallet"
                 className={`whitespace-nowrap rounded-full cursor-pointer py-2 px-6 bg-gradient-to-b  from-[#141532] to-[#1B1E4C] text-sm text-white hover:text-gray-100 ${
-                  i == 1 ? "" : "hidden md:flex"
+                  i === 1 ? "" : "hidden md:flex"
                 }`}
               >
                 {text}
