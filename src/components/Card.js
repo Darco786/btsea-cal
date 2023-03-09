@@ -36,7 +36,7 @@ const Card = ({ nftData: { id, img, title, price } }) => {
             Price: {price}
           </Link>
           <div className="flex items-center border border-[#382C9A] p-2 text-white rounded-full font-bold  text-sm  whitespace-nowrap">
-            <img src={BTCIcon} className="h-5 w-5 mr-1" />
+            <img src={BTCIcon} className="h-5 w-5 mr-1" alt="" />
             BTC
           </div>
         </div>

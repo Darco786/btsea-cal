@@ -76,18 +76,18 @@ const Navbar = () => {
           </div>
           <div className="hidden   space-x-2  absolute inset-y-0 right-0 sm:flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             
-            <button className="bg-gradient-to-b from-[#232757] to-[#232757] rounded-lg h-fit w-fit p-[2px]">
-              <button className="h-9 w-9 bg-gradient-to-b from-[#14142F] to-[#232757] rounded-md">
+            <button className="bg-gradient-to-b from-[#232757] to-[#232757] rounded-lg h-fit w-fit p-[2px] card-hover">
+              <button className="h-9 w-9 bg-gradient-to-b from-[#14142F] to-[#232757] rounded-md ">
                 <img src={DiscordIcon} className="mx-auto " alt="" />
               </button>
             </button>
-            <button className="bg-gradient-to-b from-[#232757] to-[#232757] rounded-lg h-fit w-fit p-[2px]">
-              <button className="h-9 w-9 bg-gradient-to-b from-[#14142F] to-[#232757] rounded-md">
+            <button className="bg-gradient-to-b from-[#232757] to-[#232757] rounded-lg h-fit w-fit p-[2px] card-hover">
+              <button className="h-9 w-9 bg-gradient-to-b from-[#14142F] to-[#232757] rounded-md ">
                 <img src={TwitterIcon} className="mx-auto " alt="" />
               </button>
             </button>
-            <button className="bg-gradient-to-b from-[#232757] to-[#232757] rounded-lg h-fit w-fit p-[2px]">
-              <button className="h-9 w-9 bg-gradient-to-b from-[#14142F] to-[#232757] rounded-md">
+            <button className="bg-gradient-to-b from-[#232757] to-[#232757] rounded-lg h-fit w-fit p-[2px] card-hover">
+              <button className="h-9 w-9 bg-gradient-to-b from-[#14142F] to-[#232757] rounded-md ">
                 <img src={ModeIcon} className="mx-auto " alt="" />
               </button>
             </button>
