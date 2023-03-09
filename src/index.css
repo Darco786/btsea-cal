@@ -31,5 +31,6 @@ padding: 8px 31px 8px 31px;
 .card-hover:hover{
     border-radius: 12px;
     border: 2px solid  #9504F3;
+    transition: all 0.2s ease;
 
 }

@@ -4,8 +4,8 @@ import LeftArrow from "../assets/icons/arrow (1).png";
 import rightArrow from "../assets/icons/arrow (2).png";
 import searchIcon from "../assets/icons/Vector (1).png";
 import menuIcon from "../assets/icons/menuIcon.png";
-import nftImg1 from "../assets/nft (2).png";
-import nftImg2 from "../assets/nft (1).png";
+import nftImg1 from "../assets/nft6.png";
+import nftImg2 from "../assets/nft7.png";
 import nftImg3 from "../assets/nft (2).webp";
 import nftImg4 from "../assets/nft (3).png";
 import nftImg5 from "../assets/nft (4).png";
@@ -13,7 +13,16 @@ import nftImg6 from "../assets/nft (5).png";
 import nftImg7 from "../assets/nft (6).png";
 import nftImg8 from "../assets/bitbear.webp";
 
+import nftImg9 from "../assets/nft2.png";
+import nftImg10 from "../assets/nft3.png";
+import nftImg11 from "../assets/nft4.png";
+import nftImg12 from "../assets/nft5.png";
+
 let Nfts = [
+  { id: 23232, img: nftImg9, title: "OrdinalPunk", price: 0.02 },
+  { id: 23232, img: nftImg10, title: "OrdinalSmokes", price: 0.028 },
+  { id: 23232, img: nftImg11, title: "DarkOrdinauts", price: 0.007 },
+  { id: 23232, img: nftImg12, title: "BitDefender", price: 0.021 },
   { id: 23232, img: nftImg1, title: "CyberPepes", price: 0.021 },
   { id: 23232, img: nftImg2, title: "Ordinal Egg", price: 0.32 },
   { id: 23232, img: nftImg3, title: "Ordinal Artifacts", price: 0.034 },
@@ -22,6 +31,7 @@ let Nfts = [
   { id: 23232, img: nftImg6, title: "OrdinalSmokes", price: 0.028 },
   { id: 23232, img: nftImg7, title: "DarkOrdinauts", price: 0.007 },
   { id: 23232, img: nftImg8, title: "BitDefender", price: 0.021 },
+  
 ];
 let buttons = ["06 March", "07 March", "08 March", "09 March", "10 March"];
 const Cards = () => {
